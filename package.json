@@ -1,12 +1,12 @@
 {
   "name": "nuxt-app",
-  "private": "true",
+  "private": true,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "preview": "nuxt preview"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.0",
