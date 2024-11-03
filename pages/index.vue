@@ -102,7 +102,7 @@ const handleCopy = async (btn: string): Promise<void> => {
   <Navbar />
   <div class="h-screen w-full">
   <div class="w-full bg-white dark:bg-gray-950 pt-10 flex flex-col md:flex-row md:justify-between md:items-center">
-    
+
     <form class="mx-6 md:ml-12 md:w-[50%]" @submit="onSubmit">
     <FormField v-slot="{ componentField }" name="email">
       <FormItem>
@@ -113,7 +113,7 @@ const handleCopy = async (btn: string): Promise<void> => {
         <FormMessage />
       </FormItem>
     </FormField>
-    
+
     <FormField v-slot="{ componentField }" name="password">
       <FormItem class="mt-3">
         <FormLabel>Password</FormLabel>
@@ -123,12 +123,12 @@ const handleCopy = async (btn: string): Promise<void> => {
         <FormMessage />
       </FormItem>
     </FormField>
-    
+
     <Button class="w-full mt-4 py-5" type="submit">
       {{ btnSubmit }}
     </Button>
   </form>
-  
+
   <div class="mx-6 md:mr-12 mt-14 md:mt-0 md:w-[50%]">
     <label class="font-bold text-md">Appstate</label>
     <Textarea @click="handleCopy('appstate')" class="mt-2 mb-5 resize-none font-medium p-5 text-sky-400 focus-visible:ring-sky-400" placeholder="Your appstate will show here" rows="8" v-model="appstateValue" readonly></Textarea>
@@ -137,10 +137,10 @@ const handleCopy = async (btn: string): Promise<void> => {
     <label class="font-bold text-md">Access Token</label>
     <Textarea @click="handleCopy('token')" class="mt-2 mb-5 resize-none font-medium p-5 text-sky-400 focus-visible:ring-sky-400" placeholder="Your access token will show here" v-model="tokenValue" readonly></Textarea>
   </div>
-  
+
   </div>
   <footer class="relative flex items-center bottom-0 pt-10 pb-10 justify-center w-full">
-    <p class="text-gray-400 dark:text-gray-600 text-center text-md">© Copyright 2024, <a class="text-sky-300 hover:underline" href="https://noveltyemails.com/fuckyou.com">Ethan</a> Allrights reserved.</p>
+    <p class="text-gray-400 dark:text-gray-600 text-center text-md">© Copyright 2024, <a class="text-sky-300 hover:underline" href="https://Ethan.com">Ethan</a> Allrights reserved.</p>
   </footer>
   </div>
   <Toaster />
